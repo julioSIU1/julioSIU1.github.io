@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="icon" 
+        type="image/png" 
+        sizes="32x32" 
+        href="./imagenes/piedra-papel-tijeras.png"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>Juego</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jugador" id="jugador">
+            <h3 id="usuario">usuario</h3>
+            <p id="contador">0</p>
+            <div class="opciones" id="opciones">
+                <img id="piedra" class="hidden" src="imagenes/piedra.png" alt="">
+                <img id="papel" class="hidden" src="imagenes/papel.png" alt="">
+                <img id="tijera" class="hidden" src="imagenes/tijera.png" alt="">
+            </div>
+        </div>
+        <div class="empates" id="empates">
+            <h3>Empate</h3>
+            <p id="contador2">0</p>
+            <div class="versus" id="versus">
+                <img class="versus" src="imagenes/vs.png" alt="">
+            </div>
+        </div>
+        <div class="PC" id="PC">
+            <h3>CPU</h3>
+            <p id="contador3">0</p>
+            <div class="opciones2" id="opciones2">
+                <img id="piedra2" class="hidden2" src="imagenes/piedra.png" alt="">
+                <img id="papel2" class="hidden2" src="imagenes/papel.png" alt="">
+                <img id="tijera2" class="hidden2" src="imagenes/tijera.png" alt="">
+            </div>
+        </div>
+    </div>
+    <footer class="creator">Diseñado por <span>Julian Morales</span></footer>
+    <script src="./script.js"></script>
+</body>
+</html>
